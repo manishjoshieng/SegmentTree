@@ -1,11 +1,22 @@
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
+# Ignore a specific file
+#filename.txt
+
+# Ignore a specific directory
+build/
+.vscode/
+
+# Ignore all files with a certain extension
+*.log
+
+# Ignore all files in a directory
+build/*
+
+# Ignore all files in a directory and its subdirectories
+build/**/*
+
+# Ignore all files and directories that start with "temp"
+temp*
+
+# Ignore all files and directories that end with ".tmp"
+*.tmp
+
