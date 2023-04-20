@@ -14,6 +14,7 @@ set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 # Add the source files to the build
 add_executable(SegmentTree 
     main.cpp
+    ${SRC_DIR}/SegmentTree.cpp
 )
 
 include(CPack)
